@@ -1,19 +1,29 @@
-# Ticket Booking App
+# Cricket Resell App
 
 **Tech Stack:** Android Studio, Firebase, Eazorpay
 
+## Description
+A full-featured app for cricket gear resale where users can **buy and sell products**.  
+- Products categorized under **Bat, Ball, Gloves, Accessories**.  
+- Users can **upload images of products** for sale.  
+- Integrated **cart system and secure payments** using Eazorpay.  
+- Real-time updates with **Firebase Database and Authentication**.
+
 ## Features
-- Buy tickets with integrated payments
-- "My Tickets" section with booked seats blocked automatically
-- Grid layout for movies and events
+- **User Authentication:** Sign up / Sign in with Firebase Authentication  
+- **Product Upload:** Upload images, set price, select category  
+- **Browse & Purchase:** View products by category, add to cart, make payments  
+- **Order Tracking:** Simple order summary and purchase history  
 
 ## Screenshots
 
-![Home Screen](screenshots/homepage.png)
-![My Tickets](screenshots/mytickets.png)
-![Checkout](screenshots/checkout.png)
+![Home Screen](screenshots/home.png)
+![Product Upload](screenshots/upload.png)
+![Cart & Checkout](screenshots/cart.png)
+
+> Replace the image filenames with the actual screenshots from your project.
 
 ## How to Run
-1. Clone the repository
-2. Open in Android Studio
-3. Run the app
+1. Clone the repository:  
+```bash
+git clone https://github.com/aviralkaushalreal/cricket-resell-app.git
