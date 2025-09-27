@@ -15,12 +15,6 @@ A full-featured app for cricket gear resale where users can **buy and sell produ
 - **Browse & Purchase:** View products by category, add to cart, make payments  
 - **Order Tracking:** Simple order summary and purchase history  
 
-## Screenshots
-
-![Home Screen](screenshots/home.png)
-![Product Upload](screenshots/upload.png)
-![Cart & Checkout](screenshots/cart.png)
-
 
 ## How to Run
 1. Clone the repository:  
