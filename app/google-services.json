@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "252347519298",
+    "project_id": "batball-20584",
+    "storage_bucket": "batball-20584.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:252347519298:android:1fba24b65e59ff9a63b8db",
+        "android_client_info": {
+          "package_name": "com.aviral.batball"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQ681-U-2RdibNvEMGPMiZY3dmGRaROP0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

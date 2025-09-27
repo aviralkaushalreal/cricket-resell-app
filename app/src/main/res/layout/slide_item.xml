@@ -1,0 +1,33 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        card_view:cardCornerRadius="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageSlide"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/streaming_img"
+        android:layout_gravity="bottom"
+        android:scaleType="centerCrop" />
+
+    <TextView
+
+        android:id="@+id/textSlide"
+        android:layout_margin = "5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Streaming Services"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:fontFamily="@font/robotobold"
+        android:layout_gravity="bottom|end"
+        android:padding="8dp" />
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>

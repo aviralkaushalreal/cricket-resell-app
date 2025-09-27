@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".Logic.SellSuccessActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/main"
+        android:background="@color/black">
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/display_title"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/robotobold"
+            android:text="Success! \nPreview"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/display_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/robotobold"
+            android:text="ROHIT SHARMA BAT"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/display_title" />
+
+
+
+        <TextView
+            android:id="@+id/display_desc"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/edittext_back"
+            android:fontFamily="@font/robotoregular"
+            android:hint="Nice Bat Barely Used"
+            android:padding="10dp"
+            android:minHeight="60dp"
+            app:layout_constraintTop_toBottomOf="@+id/display_name" />
+
+        <TextView
+            android:id="@+id/display_item"
+            android:gravity="center"
+            android:background="@drawable/edittext_back"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="60dp"
+            android:padding="8dp"
+            android:text="Bat"
+            android:textColor="@color/black"
+            app:layout_constraintTop_toBottomOf="@+id/display_desc" />
+
+        <TextView
+            android:id="@+id/display_cost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/edittext_back"
+            android:fontFamily="@font/robotoregular"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:minHeight="60dp"
+            android:text="Cost : ₹ 3000"
+            android:gravity="center"
+            app:layout_constraintTop_toBottomOf="@+id/display_item" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            app:layout_constraintTop_toBottomOf="@+id/display_cost">
+
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/img2"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/img3"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/img4"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:id="@+id/btnAddCart"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_back"
+                android:fontFamily="@font/robotobold"
+                android:textSize="15dp"
+                android:padding="10dp"
+                android:text="ADD TO CART"
+                android:textColor="@color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/loginpassword" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:id="@+id/btnBuy"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_back"
+                android:fontFamily="@font/robotobold"
+                android:textSize="15dp"
+                android:padding="10dp"
+                android:text="BUY NOW"
+                android:textColor="@color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/loginpassword" />
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

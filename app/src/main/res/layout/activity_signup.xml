@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Auth.SignupActivity"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:paddingVertical="20dp"
+        android:background="@drawable/card_back"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginBottom="30dp">
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginVertical="10dp"
+                android:src="@drawable/logo" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/robotobold"
+                android:text="PopcornTickets"
+                android:textColor="@color/orange"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/robotoregular"
+            android:text="Book the magic, skip the queue."
+            android:textColor="@color/orange"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+        <EditText
+            android:layout_gravity="center"
+            android:id="@+id/signupname"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/edittext_back"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            android:hint="username"
+            android:padding="10dp"
+            android:textColor="@color/darkgrey"
+            android:textColorHint="@color/darkgrey"
+            android:fontFamily="@font/robotoregular"
+            />
+
+
+        <EditText
+            android:layout_gravity="center"
+            android:id="@+id/signupemail"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/edittext_back"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            android:hint="email"
+            android:padding="10dp"
+            android:textColor="@color/darkgrey"
+            android:textColorHint="@color/darkgrey"
+            android:fontFamily="@font/robotoregular"
+            />
+
+        <EditText
+            android:layout_gravity="center"
+            android:id="@+id/signuppassword"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/edittext_back"
+            android:fontFamily="@font/robotoregular"
+            android:hint="password"
+            android:padding="10dp"
+            android:textColor="@color/darkgrey"
+            android:inputType="textPassword"
+            android:textColorHint="@color/darkgrey"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/loginemail" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/btnRegister"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/button_back"
+            android:fontFamily="@font/robotobold"
+            android:textSize="15dp"
+            android:padding="10dp"
+            android:text="REGISTER"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/loginpassword" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:id="@+id/btnRegisterlog"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:fontFamily="@font/robotoregular"
+            android:gravity="center"
+            android:text="already have an account? login here"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnLogin" />
+
+
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
