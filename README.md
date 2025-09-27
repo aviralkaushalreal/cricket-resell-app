@@ -1,6 +1,6 @@
 # Cricket Resell App
 
-**Tech Stack:** Android Studio, Firebase, Eazorpay
+**Tech Stack:** Android Studio, Firebase, Razorpay
 
 ## Description
 A full-featured app for cricket gear resale where users can **buy and sell products**.  
@@ -21,7 +21,6 @@ A full-featured app for cricket gear resale where users can **buy and sell produ
 ![Product Upload](screenshots/upload.png)
 ![Cart & Checkout](screenshots/cart.png)
 
-> Replace the image filenames with the actual screenshots from your project.
 
 ## How to Run
 1. Clone the repository:  
